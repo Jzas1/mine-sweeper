@@ -1,0 +1,25 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top p {
+  text-align: end;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+img {
+  border-radius: 5px;
+  box-shadow: 1px 1px;
+  width: 45vw;
+}
